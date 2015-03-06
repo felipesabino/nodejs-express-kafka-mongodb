@@ -29,7 +29,7 @@ If you are using a Mac follow the instructions [here](https://docs.docker.com/in
 
 ## Running
 
-- `$ nf `
+- `$ nf start`
 
 caveat: between restart, wait for a similar message before starting to avoid consumer connection error described in https://github.com/SOHU-Co/kafka-node/issues/90
 

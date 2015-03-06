@@ -22,7 +22,7 @@ app.post('/', function(req, res) {
   // sends value to kafka
   var topicMessage = { topic: 'my-node-topic', messages: [
     // all messages must be string :S
-    JSON.stringify({ timestamp: timestamp })
+    JSON.stringify({ timestamp: timestamp, rnd: Math.random() })
   ] };
 
   var payload = [ topicMessage ];

@@ -1,0 +1,17 @@
+{
+  "name": "express-kafka-db",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "kafka-node": "0.2.19",
+    "express": "4.0.0",
+    "moment-timezone": "0.3.0",
+    "mongojs": "0.18.0"
+  },
+  "author": "",
+  "license": "MIT"
+}

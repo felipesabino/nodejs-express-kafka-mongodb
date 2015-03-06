@@ -46,7 +46,7 @@ zookeeper_1 | 2015-02-19 11:28:58,002 [myid:] - INFO  [ProcessThread(sid:0 cport
 
 - to read  last received message by worker: `$ curl http://localhost:3001/`
 
-- to perform apache benchmark `$ ab -n 100 -c 5 -p -T 'application/x-www-form-urlencoded' http://localhost:3001/`
+- to perform apache benchmark `$ ab -n 1000 -c 5 -T 'application/x-www-form-urlencoded' -p post.txt http://localhost:3001/`
 
 
 ## References
